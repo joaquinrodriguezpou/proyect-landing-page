@@ -1,13 +1,10 @@
-
 body {
-    background-color:black;
+    background-color: black;
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
     margin: 0;
 }
-
-
 
 .container {
     display: flex;
@@ -21,6 +18,7 @@ body {
     color: aliceblue;
     background-color: #1f2937;
     gap: 30px;
+    padding: 20px; /* Añadido */
 }
 
 .header {
@@ -30,13 +28,12 @@ body {
 }
 
 .header-logo {
-    margin: 0%;
+    margin: 0;
     margin-right: auto;
     font-weight: 900;
     font-size: 24px;
     color: #f9faf8;
     font-family: sans-serif;
-
 }
 
 ul {
@@ -59,31 +56,26 @@ a {
 }
 
 .text {
-
-    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centra verticalmente el contenido */
-    align-items: center; /* Centra horizontalmente el contenido */
+    flex: 1;
 }
 
 .title h1,
 .subtext p,
 button {
     flex: 1;
-    width: 100%; /* Ocupa todo el ancho disponible */
 }
 
 .title h1 {
-    font-weight:bolder;
+    font-weight: bolder;
     color: #f9faf8;
     font-size: 48px;
     margin: 0;
 }
 
-
 .subtext p,
-.links{
+.links {
     font-size: 18px;
     color: #e5e7eb;
     margin: 0;
@@ -95,13 +87,12 @@ button {
     padding: 8px 30px;
     font-weight: 900;
     font-size: 18px;
-    color: #f9faf8;
     border: none;
     border-radius: 10px;
     cursor: pointer;
 }
 
 img {
-    width: 0px;
+    width: 100%; /* Cambiado */
     flex: 1;
 }
